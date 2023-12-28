@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    border:none;
+}
+.display{
+    padding:.5rem;
+    display: flex;
+    justify-content: end;
+    background-color: rgb(255, 252, 252);
+    font-size: 44px;
+    border-start-end-radius: 1rem;
+    border-start-start-radius: 1rem;
+}
+.app-c{
+
+    border:1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10rem;
+}
+.calc-c{
+    width: 300px;
+    height: 400px;
+    display:flex;
+    flex-direction: column;
+    border:1px solid red;
+    border-radius:1rem;
+}
+.btn{
+    padding:1rem;
+
+}
+
+.btn:hover{
+    background-color:red;
+}
