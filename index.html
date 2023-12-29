@@ -6,23 +6,31 @@
     <link rel="stylesheet" href="style.css">
     <title>Calculator App</title>
 </head>
-<body class="app-c">
+<body>
     <div class="calc-c">
-        <section>
-            <h1 class="display" id="display">0</h1>
-        </section>
-        <section>
-            <div class="numbers">
-                <button class="btn" id="btn" value="0" >1</button>
-                <button class="btn" id="btn" value="1" >2</button>
-                <button class="btn" id="btn" value="2" >3</button>
+            <div class="output">
+                <div data-previous class="previous"></div>
+                <div data-current class="after" id="display">0</div>
             </div>
-            <div class="operations">
-                <button>+</button>
-                <button>-</button>
-                <button>/</button>
-            </div>
-        </section>
+                <button data-clear class="btn  btnText span2" id="btn-s">AC</button>
+                <button data-delete class="btn btnText " id="btn-s">DEL</button>
+                <button data-operand class="btn btnText ">+</button>
+                <button  data-number class="btn btnText " id="btn" value="1" >1</button>
+                <button  data-number class="btn btnText " id="btn" value="2" >2</button>
+                <button  data-number class="btn btnText " id="btn" value="3" >3</button>
+                <button class="btn btnText " >-</button>
+                <button  data-number class="btn btnText " id="btn" value="4" >4</button>
+                <button  data-number class="btn btnText " id="btn" value="5" >5</button>
+                <button  data-number class="btn btnText " id="btn" value="6" >6</button>
+                <button data-operand class="btn btnText " >/</button>
+                <button  data-number class="btn btnText " id="btn" value="7" >7</button>
+                <button  data-number class="btn btnText " id="btn" value="8" >8</button>
+                <button  data-number class="btn btnText " id="btn" value="9" >9</button>
+                <button data-operand class="btn btnText " id="btn" value="*" >*</button>
+                <button  data-number class="btn btnText " id="btn" value="." >.</button>
+                <button data-number  class="btn btnText " id="btn" value="0" >0</button>
+                <button data-equals class="btn btnText  span2" id="btn" value="=" >=</button>
+
     </div>
     <script src="./app.js"></script>
 </body>
